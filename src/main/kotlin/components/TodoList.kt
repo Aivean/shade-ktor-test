@@ -44,8 +44,6 @@ class TodoList : Component<TodoList.Props>() {
         button {
             +"Add"
             onClick {
-                delay(1000)
-
                 todoList = todoList + newItem.value
             }
         }
